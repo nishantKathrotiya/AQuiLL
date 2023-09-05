@@ -1,0 +1,206 @@
+
+            /* my own       */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F8FF;
+    font-family: karla;
+    overflow: hidden;
+}
+
+.bgwrapper {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    object-fit: cover;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.bgwrapper img {
+    height: 100vh;
+    width: auto;
+}
+
+.nav {
+    width: 100vw;
+    height: fit-content;
+    z-index: 100;
+    background-color: rgb(247, 247, 247);
+    position: fixed;
+    padding: 0%;
+}
+
+.wrap {
+    width: 100%;
+    z-index: 110;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLogo {
+    padding: 0px 40% 0px 1vw;
+    margin: 0px;
+    z-index: 120;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.navLogo img {
+    height: 80px;
+    width: auto;
+    background-blend-mode: multiply;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.navList {
+    display: flex;
+    gap: 2vw;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.navList h4 {
+    font-weight: 300;
+    font-size: larger;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    transition: all ease-in 0.1s linear;
+}
+
+.navList h4:hover {
+
+    color: #ffc034;
+    cursor: pointer;
+}
+
+.style-0 {
+    width: 100vw;
+    padding: 30px 0px 120px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0px;
+    border: 0px none rgb(33, 37, 41);
+    font: 16px / 16px Karla, sans-serif;
+    vertical-align: baseline;
+}
+
+.style-1 {
+    float: none;
+    
+    width: 62%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0px 0px;
+    padding: 0px;
+    border: 0px none rgb(33, 37, 41);
+    font: 16px / 16px Karla, sans-serif;
+    box-sizing: border-box;
+}
+
+.style-2 {
+    
+    background: rgba(0, 0, 0, 0) linear-gradient(287deg, rgba(126, 206, 253, 0.25) 0px, rgba(216, 223, 35, 0.25) 100%) no-repeat scroll 0px 0px / auto padding-box border-box;
+    box-shadow: rgba(32, 128, 192, 0.13) 0px 10px 40px 0px;
+    border-radius: 12px 12px 157px;
+    height: 195px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    border: 0px none rgb(33, 37, 41);
+    font: 16px / 16px Karla, sans-serif;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.style-3 {
+    font-size: 50px;
+    color: rgb(26, 50, 96);
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    border: 0px none rgb(26, 50, 96);
+    vertical-align: baseline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 50px;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+
+
+
+/* second tyr   */
+
+
+.style-50 {
+    float: right;
+    width: 36%;
+    display: block;
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+    border: 0px none rgb(33, 37, 41);
+    font: 16px / 16px Karla, sans-serif;
+    box-sizing: border-box;
+}
+
+.style-51 {
+    background: rgba(0, 0, 0, 0) linear-gradient(137deg, rgba(227, 236, 153, 0.67) 0px, rgba(88, 210, 240, 0.67) 100%) no-repeat scroll 0px 0px / auto padding-box border-box;
+    border-radius: 0px 35px 0px 34px;
+    height: 89px;
+    width: 95px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px 0px 30px;
+    padding: 0px;
+    border: 0px none rgb(33, 37, 41);
+    font: 16px / 16px Karla, sans-serif;
+    box-sizing: border-box;
+}
+
+.style-52 {
+    background: rgba(0, 0, 0, 0) url('http://salvichem.com/assets/images/contact-bg3.webp') no-repeat scroll 50% 50% / auto padding-box border-box;
+    border-radius: 12px 12px 60px;
+    height: 165px;
+    width: 180px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 98px 0px 0px -85px;
+    padding: 0px;
+    border: 0px none rgb(33, 37, 41);
+    font: 16px / 16px Karla, sans-serif;
+    box-sizing: border-box;
+}
+
+.style-53 {
+    background: rgba(0, 0, 0, 0) url('http://salvichem.com/assets/images/contact-bg4.webp') no-repeat scroll 50% 50% / auto padding-box border-box;
+    border-radius: 12px 12px 60px;
+    height: 255px;
+    width: 250px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px 0px 15px;
+    padding: 0px;
+    border: 0px none rgb(33, 37, 41);
+    font: 16px / 16px Karla, sans-serif;
+    box-sizing: border-box;
+}
+
+
