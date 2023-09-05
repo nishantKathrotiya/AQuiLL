@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F8FF;
+font-family: karla;
+overflow: hidden;
+}
+.bgwrapper{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    object-fit: cover;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.bgwrapper img{
+    height:100vh;
+    width: auto;
+}
+.nav{
+width: 100vw;
+height: fit-content;
+z-index: 100;
+background-color: rgb(247, 247, 247);
+position: fixed;
+padding: 0%;
+}
+.wrap{
+width:100%;
+z-index: 110;
+background-color: rgb(255, 255, 255);
+margin: 0;
+display: flex;
+justify-content:space-between;
+}
+.navLogo{
+padding: 0px 40% 0px 1vw;
+margin: 0px ;
+z-index: 120;
+background-color: rgb(255, 255, 255);
+
+}
+.navLogo img {
+height: 80px;
+width: auto;
+background-blend-mode:multiply;
+background-color: rgb(255, 255, 255);
+
+}
+
+
+.navList {
+display: flex;
+gap: 2vw;
+background-color: rgb(255, 255, 255);
+box-sizing: border-box;
+}
+
+.navList h4 {
+font-weight: 300;
+font-size: larger;
+background: transparent;
+color: rgb(0, 0, 0);
+transition: all ease-in 0.1s linear;
+}
+
+.navList h4:hover {
+
+color: #ffc034;
+cursor: pointer;
+}
+.undimg{
+background-color: #FFFFFF;
+}
+#gob{
+position: relative;
+top:-20vh;
+left: 20vw;
+height: 8vh;
+width: 12vw;
+border: none;
+background-color: #071434;
+color: azure;
+border-radius: 30px;
+font-size: 1.5em;
+padding: 2px;
+cursor: pointer;
+transition: all 0.2s linear ; 
+}
+#gob:hover{
+box-shadow: 5px 5px 5px rgba(103, 103, 103, 0.525) ;
+}
